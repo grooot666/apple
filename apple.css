@@ -1,332 +1,369 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-body{
-    display: block;
-    font-family: "Inter", sans-serif;
- 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.header{
-    position: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 100vw;
-    column-gap: 30px;
-    line-height: 50px;
-    background-color: #f5f5f7;
-    font-weight: 400;
-    font-size: 12px;
-    color: #000;
-    
-}
-a{
-    text-decoration: none;
-}
-.donation-banner{
-    width: 100vw;
-    text-align: center;
-    line-height: 50px;
-    padding-top: 50px;
-    font-weight: 500;
-    font-size: 14px;
+body {
+  display: block;
+  font-family: "Inter", sans-serif;
 }
 
-.hero__container--iphone--16pro{
-    background-image: url(./photos/16pro.png);
+.header {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100vw;
+  column-gap: 30px;
+  line-height: 50px;
+  background-color: #f5f5f7;
+  font-weight: 400;
+  font-size: 12px;
+  color: #000;
 }
 
-.align-center{
-    display: flex;
-    align-items: center;
+a {
+  text-decoration: none;
 }
-.hero-container{
-    width: 100vw;
-    height: 650px;
-   padding-top: 50px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-block: 55px 36px;
-    margin-bottom: 12px;
+
+.donation-banner {
+  width: 100vw;
+  text-align: center;
+  line-height: 50px;
+  padding-top: 50px;
+  font-weight: 500;
+  font-size: 14px;
 }
+
+.hero__container--iphone--16pro {
+  background-image: url(./photos/16pro.png);
+}
+
+.align-center {
+  display: flex;
+  align-items: center;
+}
+
+.hero-container {
+  width: 100vw;
+  height: 650px;
+  padding-top: 50px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-block: 55px 36px;
+  margin-bottom: 12px;
+}
+
 .hero-title {
-    color: #fff;
-    font-weight: 700;
-    font-size: 50px;
-}
-.hero-subhead{
-    color: #fff;
-    font-weight: 400;
-    font-size: 24px;
-    margin: 12px 20px;
-}
-.button--primary{
-    background-color: #0071e3;
-    color: #fff;
+  color: #fff;
+  font-weight: 700;
+  font-size: 50px;
 }
 
-.button--secondary{
-    background-color: transparent;
-    color: #2997ff;
-    border: solid 1px #2997ff;;
-}
-.button{
-    padding: 12px 20px;
-    border-radius:  999px;
-    text-decoration: none;
-    border: solid 1px #0071e3;
-}
-.hero-buttons{
-    display: flex;
-    gap: 15px
-    ;
-}
-.hero__container--iphone--16{
-    background-image: url(./photos/16blue.png);
-}
-.hero__container--gift--magic{
-    background-image: url(./photos/gift-magic.jpeg);
-}
-.hero-title--dark{
-    color: #000;
-}
-.hero-subhead--dark{
-    color: #000;
-}
-.flex_end{
-    justify-content: flex-end;
-}
-.product-container{
-    width: 100vw;
-    display: flex;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 12px;
-    margin-bottom: 12px;
-}
-.product{
-    display: flex;
-    text-align: center;   
-    justify-content: center;
-    align-items: flex-start;
-    padding: 48px 0px 58px;
-}
-.product-bottom{
-    align-items: flex-end;
+.hero-subhead {
+  color: #fff;
+  font-weight: 400;
+  font-size: 24px;
+  margin: 12px 20px;
 }
 
-#watch-title{
-    width: 161px;
-    height: fit-content;
-}
-#trade_title{
-    width: 161px;
-    height: fit-content;
-}
-.product1{
-    background-image: url(./photos/airpods4.jpeg);
-    width: 50vw;
-    height: 580px;
-    background-position: center;
-    background-size: cover;
-}
-.product-title{
-    font-size: 36px;
-    color: #000;
-    font-weight: 600;
-}
-.product-subhead{
-    font-size: 18px;
-    color: #000;
-    padding-block: 2px 16px;
+.button--primary {
+  background-color: #0071e3;
+  color: #fff;
 }
 
-.title-white{
-    color: #fff;
-}
-.subhead-white{
-    color: #fff;
-}
-.product-buttons{
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-}
-.product2{
-    background-image: url(./photos/applewatch.jpg);
-     width: 50vw;
-    height: 580px;
-    background-position: center;
-    background-size: cover;
-}
-.product3{
-    background-image: url(./photos/macbookAir.jpeg);
-     width: 50vw;
-    height: 580px;
-    background-position: center;
-    background-size: cover;
-}
-.product4{
-    background-image: url(./photos/smallBusiness.png);
-     width: 50vw;
-    height: 580px;
-    background-position: center;
-    background-size: cover;
-}
-.product5{
-    background-image: url(./photos/carrierDeals.jpeg);
-     width: 50vw;
-    height: 580px;
-    background-position: center;
-    background-size: cover;
-}
-.product6{
-    background-image: url(./photos/6.jpg);
-     width: 50vw;
-    height: 580px;
-    background-position: center;
-    background-size: cover;
+.button--secondary {
+  background-color: transparent;
+  color: #2997ff;
+  border: solid 1px #2997ff;
 }
 
-.media-carousel{
-    display: flex;
-    width: 100vw;
-    column-gap: 15px;
-    overflow-x: scroll;
-    align-items: center;
-    scrollbar-width: none;
-    scroll-behavior: smooth;
-    scroll-snap-type: x mandatory;
-    
+.button {
+  padding: 12px 20px;
+  border-radius: 999px;
+  text-decoration: none;
+  border: solid 1px #0071e3;
 }
+
+.hero-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.hero__container--iphone--16 {
+  background-image: url(./photos/16blue.png);
+}
+
+.hero__container--gift--magic {
+  background-image: url(./photos/gift-magic.jpeg);
+}
+
+.hero-title--dark {
+  color: #000;
+}
+
+.hero-subhead--dark {
+  color: #000;
+}
+
+.flex_end {
+  justify-content: flex-end;
+}
+
+.product-container {
+  width: 100vw;
+  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.product {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 48px 0px 58px;
+}
+
+.product-bottom {
+  align-items: flex-end;
+}
+
+#watch-title {
+  width: 161px;
+  height: fit-content;
+}
+
+#trade_title {
+  width: 161px;
+  height: fit-content;
+}
+
+.product1 {
+  background-image: url(./photos/airpods4.jpeg);
+  width: 50vw;
+  height: 580px;
+  background-position: center;
+  background-size: cover;
+}
+
+.product-title {
+  font-size: 36px;
+  color: #000;
+  font-weight: 600;
+}
+
+.product-subhead {
+  font-size: 18px;
+  color: #000;
+  padding-block: 2px 16px;
+}
+
+.title-white {
+  color: #fff;
+}
+
+.subhead-white {
+  color: #fff;
+}
+
+.product-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.product2 {
+  background-image: url(./photos/applewatch.jpg);
+  width: 50vw;
+  height: 580px;
+  background-position: center;
+  background-size: cover;
+}
+
+.product3 {
+  background-image: url(./photos/macbookAir.jpeg);
+  width: 50vw;
+  height: 580px;
+  background-position: center;
+  background-size: cover;
+}
+
+.product4 {
+  background-image: url(./photos/smallBusiness.png);
+  width: 50vw;
+  height: 580px;
+  background-position: center;
+  background-size: cover;
+}
+
+.product5 {
+  background-image: url(./photos/carrierDeals.jpeg);
+  width: 50vw;
+  height: 580px;
+  background-position: center;
+  background-size: cover;
+}
+
+.product6 {
+  background-image: url(./photos/6.jpg);
+  width: 50vw;
+  height: 580px;
+  background-position: center;
+  background-size: cover;
+}
+
+.media-carousel {
+  display: flex;
+  width: 100vw;
+  column-gap: 15px;
+  overflow-x: scroll;
+  align-items: center;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+}
+
 .carousel-slide {
-    scroll-snap-align: center;
-    min-width: 1250px;
-    height: 668px;
-    
-}
-#item1{
-    background-image: url(./photos/napoleon.jpg);
-    background-position: center;
-    background-size: cover;
-}
-#item2{
-    background-image: url(./photos/bad-monkey.jpg);
-    background-position: center;
-    background-size: cover;
-}
-#item3{
-    background-image: url(./photos/instigators.jpg);
-    background-position: center;
-    background-size: cover;
-}
-#item4{
-    background-image: url(./photos/k-pop-idols.jpg);
-    background-position: center;
-    background-size: cover;
-}
-#item5{
-    background-image: url(./photos/season-pass.jpg);
-    background-position: center;
-    background-size: cover;
-}
-#item6{
-    background-image: url(./photos/pressumed-innocent.jpg);
-    background-position: center;
-    background-size: cover;
-}
-#item7{
-    background-image: url(./photos/pachinko.jpg);
-    background-position: center;
-    background-size: cover;
-}
-#item8{
-    background-image: url(./photos/baseball.jpg);
-    background-position: center;
-    background-size: cover;
-}
-#item9{
-    background-image: url(./photos/lady-in-the-lake.jpg);
-    background-position: center;
-    background-size: cover;
-}
-#item10{
-    background-image: url(./photos/morning-show.jpg);
-    background-position: center;
-    background-size: cover;
-}
-.bullets{
-   height: 30px;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    margin-top: 14px;
-    column-gap: 15px;
+  scroll-snap-align: center;
+  min-width: 1250px;
+  height: 668px;
 }
 
-.bullet{
-     width: 8px;
-     height: 8px;
-     border-radius: 50%;
-     background-color: #5b5858;
-     opacity: 0.6;
-}
-.slide-wrapper{
-    width: 100%;
-    padding-top: 12px;
-    height: 236px;
-
-}
-.slide_item{
-    background-image: url(./photos/r&bnow.jpg);
-    width: 196px;
-    height: 196px;
-    background-position: center;
-    background-size: cover;
-    border-radius: 10px;
-    position: absolute;
-    left: 10px;
-    top: 25px;
-    
-    
-  
-}
-.slide_bgcolor{
-    width: 417px;
-    height: 236px;
-    background-color: rgb(20, 40, 56);
-    position: relative;
-    
-}
-.slide-text{
-   position: absolute;
-    top: 118px;
-    right: 125px;
-    color: #fff;
-    font-weight: 700;
-    font-size: 16px;
-}
-.slide-hover{
-    background-color: #fff;
-   padding: 7px 14px ;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    border-radius: 20px;
-    font-size: 13.3333px;
-    font-weight: 400;
-    top: 112px;
-    left: 160px;
-    opacity: 0;
+#item1 {
+  background-image: url(./photos/napoleon.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
+#item2 {
+  background-image: url(./photos/bad-monkey.jpg);
+  background-position: center;
+  background-size: cover;
+}
 
+#item3 {
+  background-image: url(./photos/instigators.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#item4 {
+  background-image: url(./photos/k-pop-idols.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#item5 {
+  background-image: url(./photos/season-pass.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#item6 {
+  background-image: url(./photos/pressumed-innocent.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#item7 {
+  background-image: url(./photos/pachinko.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#item8 {
+  background-image: url(./photos/baseball.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#item9 {
+  background-image: url(./photos/lady-in-the-lake.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#item10 {
+  background-image: url(./photos/morning-show.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.bullets {
+  height: 30px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  margin-top: 14px;
+  column-gap: 15px;
+}
+
+.bullet {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #5b5858;
+  opacity: 0.6;
+}
+
+.slide-wrapper {
+  width: 100%;
+  padding-top: 12px;
+  height: 236px;
+}
+
+.slide_item {
+  background-image: url(./photos/r&bnow.jpg);
+  width: 196px;
+  height: 196px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  position: absolute;
+  left: 10px;
+  top: 25px;
+}
+
+.slide_bgcolor {
+  width: 417px;
+  height: 236px;
+  background-color: rgb(20, 40, 56);
+  position: relative;
+}
+
+.slide-text {
+  position: absolute;
+  top: 118px;
+  right: 125px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.slide-hover {
+  background-color: #fff;
+  padding: 7px 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  border-radius: 20px;
+  font-size: 13.3333px;
+  font-weight: 400;
+  top: 112px;
+  left: 160px;
+  opacity: 0;
+}
+.slide_bgcolor:hover {
+  opacity: 0.8;
+  transition: 0.6s;
+}
